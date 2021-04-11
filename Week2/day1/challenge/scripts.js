@@ -1,0 +1,1 @@
+let fruits = ['Banana' 'Apples' 'Oranges' 'Blueberries']
