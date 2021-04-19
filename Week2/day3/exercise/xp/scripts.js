@@ -84,7 +84,7 @@ let guestList = {
     sam: "Argentina"
   }
 
-let name = prompt("What is your name?");
+let name =  prompt("What is your name?");
   for (name in guestList) {
       console.log(`Hi! I'm ${name}, and I'm from ${guestList}`);
   }
