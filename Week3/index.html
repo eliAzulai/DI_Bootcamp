@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <p>hi <strong>there</strong></p>
+    <input type="submit" id="submit">
+    
+    <input type="text" id="radius" value=30>
+    <script>
+        let submit = document.getElementById('submit')
+        let input = document.getElementById('radius')
+        
+        
+        submit.addEventListener('click', function() {
+            console.log(input.value)
+            let volume = (4/3) * (Math.PI * input.value ** 3)
+            console.log(volume)
+        })
+    </script>
+</body>
+</html>

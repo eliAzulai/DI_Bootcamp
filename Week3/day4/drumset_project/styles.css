@@ -1,0 +1,19 @@
+body {
+     background-image:url("");
+
+}
+
+.parentContainer {
+    display:flex;
+    
+}
+
+.container {
+    height: 100px;
+    width: 100px;
+    color: blue;
+    border: solid red 2px ;
+   
+
+}
+
