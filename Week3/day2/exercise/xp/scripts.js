@@ -171,7 +171,7 @@ let input = document.getElementById('radius')
 
 let form = document.forms.my;
 
-form.addEventListener("submit", test)
+form.addEventListener("click", test)
 
 function test(){
     let volume = (4/3) * (Math.PI * input.value ** 3)
