@@ -142,14 +142,14 @@
 #     if(i > 3):
 #         break
 
-pizza_top = ''
+pizza_top = []
 
-while user: 
+while pizza_top != 'quit':
+    pizza_top = input('What would you like on your pizza? (type quit when you are done):')
+    pizza_sofar = [pizza_top]
+    print(pizza_sofar)
 
-input('What would you like on your pizza? (type quit when you are done)')
-
-
-
+    
 # Exercise 11: Cinemax
 # Instructions
 # A movie theater charges different ticket prices depending on a person’s age.
