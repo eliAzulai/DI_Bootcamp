@@ -142,14 +142,22 @@
 #     if(i > 3):
 #         break
 
-pizza_top = []
 
-while pizza_top != 'quit':
+# while pizza_top != 'quit':
+#     pizza_top = input('What would you like on your pizza? (type quit when you are done):')
+#     pizza_sofar = [pizza_top]
+#     print(pizza_sofar)
+
+pizza_topping = []
+while True: 
     pizza_top = input('What would you like on your pizza? (type quit when you are done):')
-    pizza_sofar = [pizza_top]
-    print(pizza_sofar)
-
+    if pizza_top != 'quit':
+        print(f'Ok I will add {pizza_top}')
+        pizza_topping.append(pizza_top)
+    else: break
     
+print(f"You chose those toppings on your pizza: {pizza_topping}. The total is 10$ + {2.5*len(pizza_topping)}$ for each topping")
+        
 # Exercise 11: Cinemax
 # Instructions
 # A movie theater charges different ticket prices depending on a person’s age.
