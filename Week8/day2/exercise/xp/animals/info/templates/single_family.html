@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+hello from single family 
+    <ul>
+        <li>name: {{ animal.name }}</li>
+        {% for animal in animals %}
+            <p>{{animal.name}} is part fo the family</p>
+        {% endfor %}
+    </ul>
+
+
+{% endblock %}
+
